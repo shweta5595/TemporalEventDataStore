@@ -12,6 +12,7 @@ public class Connection{
 		ArrayList<String> collection = new ArrayList<String>();
 		collection.add("one");
 		collection.add("two");
+		collection.add("three"); // Just to learn git
 		CreateCollection c = new CreateCollection("test",collection);
 		InsertClass ic = new InsertClass("test","one","/home/shweta/Downloads/file.json");
 		try {
