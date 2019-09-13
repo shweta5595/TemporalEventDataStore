@@ -9,10 +9,8 @@ import com.mongodb.client.MongoDatabase;
 
 public class CreateCollection {
 	CreateConnection cc = new CreateConnection();
-	MongoClient client = cc.connection();
 	MongoDatabase dbname ;
 	MongoCollection<Document> collectionname;
-	String db; // Database Name
 	ArrayList<String> coll;//Collection
 		public CreateCollection(String database,ArrayList<String> collection){
 			
