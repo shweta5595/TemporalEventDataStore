@@ -1,4 +1,4 @@
-package Developer;
+ipackage Developer;
 import java.io.IOException;
 import java.util.ArrayList;
 
@@ -12,7 +12,7 @@ public class Connection{
 		ArrayList<String> collection = new ArrayList<String>();
 		collection.add("one");
 		collection.add("two");
-		collection.add("three"); // Just to learn git
+		//collection.add("three"); // Just to learn git
 		CreateCollection c = new CreateCollection("test",collection);
 		InsertClass ic = new InsertClass("test","one","/home/shweta/Downloads/file.json");
 		try {
