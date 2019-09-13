@@ -38,6 +38,7 @@ public void insertMany() throws IOException {
 	         
 	        }
 	      collectionname.bulkWrite(docs, new BulkWriteOptions().ordered(false));
+
 	    }catch(Exception e){
 		System.out.println("Exception caught  !! ");
 	}
